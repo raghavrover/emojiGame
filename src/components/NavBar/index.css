@@ -1,0 +1,56 @@
+.nav-element {
+  width: 100%;
+  background-color: #ffffff33;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar-content {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar-brand-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.emoji-logo {
+  height: 36px;
+  width: 36px;
+}
+
+.emoji-game-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 6px;
+}
+
+.score-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.score-text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-left: 14px;
+}
+
+@media (min-width: 768px) {
+  .emoji-game-text {
+    font-size: 20px;
+  }
+  .score-text {
+    font-size: 16px;
+  }
+}
